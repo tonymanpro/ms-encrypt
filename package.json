@@ -1,0 +1,19 @@
+{
+  "name": "ms-encrypt",
+  "version": "1.0.0",
+  "description": "Used to encript bigquery columns with AES_256",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antony Chavarría C.",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/bigquery": "^2.0.6",
+    "@impesa/common": "^1.3.1",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "request-promise": "^4.2.2"
+  }
+}
